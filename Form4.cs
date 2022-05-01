@@ -15,7 +15,7 @@ namespace MyHardestGame
 
         Point startingPoint;
         bool won = false;
-        int seconds = 45;
+        int seconds = 60;
         int endSec = 0;
 
         public Form4()

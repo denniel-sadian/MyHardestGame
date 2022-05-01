@@ -195,11 +195,11 @@
             this.gameOverLabel.BackColor = System.Drawing.Color.Transparent;
             this.gameOverLabel.Font = new System.Drawing.Font("Segoe UI", 50.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.gameOverLabel.ForeColor = System.Drawing.Color.Red;
-            this.gameOverLabel.Location = new System.Drawing.Point(157, 41);
+            this.gameOverLabel.Location = new System.Drawing.Point(176, 35);
             this.gameOverLabel.Name = "gameOverLabel";
-            this.gameOverLabel.Size = new System.Drawing.Size(449, 89);
+            this.gameOverLabel.Size = new System.Drawing.Size(357, 89);
             this.gameOverLabel.TabIndex = 59;
-            this.gameOverLabel.Text = "GAME OVER!";
+            this.gameOverLabel.Text = "Time\'s up!";
             this.gameOverLabel.Visible = false;
             // 
             // youWonLabel
@@ -208,7 +208,7 @@
             this.youWonLabel.BackColor = System.Drawing.Color.Transparent;
             this.youWonLabel.Font = new System.Drawing.Font("Segoe UI", 50.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.youWonLabel.ForeColor = System.Drawing.Color.Green;
-            this.youWonLabel.Location = new System.Drawing.Point(76, 45);
+            this.youWonLabel.Location = new System.Drawing.Point(76, 37);
             this.youWonLabel.Name = "youWonLabel";
             this.youWonLabel.Size = new System.Drawing.Size(631, 89);
             this.youWonLabel.TabIndex = 1;
@@ -372,9 +372,9 @@
             // label43
             // 
             this.label43.BackColor = System.Drawing.Color.Black;
-            this.label43.Location = new System.Drawing.Point(667, 105);
+            this.label43.Location = new System.Drawing.Point(667, 104);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(10, 178);
+            this.label43.Size = new System.Drawing.Size(10, 179);
             this.label43.TabIndex = 43;
             this.label43.Text = "label43";
             this.label43.MouseEnter += new System.EventHandler(this.wallEnter);
@@ -394,7 +394,7 @@
             this.label41.BackColor = System.Drawing.Color.Black;
             this.label41.Location = new System.Drawing.Point(623, 130);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(10, 213);
+            this.label41.Size = new System.Drawing.Size(10, 185);
             this.label41.TabIndex = 41;
             this.label41.Text = "label41";
             this.label41.MouseEnter += new System.EventHandler(this.wallEnter);

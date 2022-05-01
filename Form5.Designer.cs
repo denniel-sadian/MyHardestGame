@@ -58,11 +58,12 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(581, 260);
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(565, 244);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 37);
+            this.button1.Size = new System.Drawing.Size(136, 53);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Claim prize";
+            this.button1.Text = "Claim Prize";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

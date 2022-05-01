@@ -25,6 +25,17 @@ namespace MyHardestGame
         public Form2()
         {
             InitializeComponent();
+            SetStyle(ControlStyles.SupportsTransparentBackColor, true);
+            foreach (Control b in this.Controls)
+            {
+                if (b is PictureBox && (string)b.Tag == "bullet")
+                {
+                    b.Parent = duterte;
+                    b.BackColor = Color.Transparent;
+                    duterte.Parent = this;
+                    duterte.BackColor = Color.Transparent;
+                }
+            }
         }
 
         private void Form2_Load(object sender, EventArgs e)
